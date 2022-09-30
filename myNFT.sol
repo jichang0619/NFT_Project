@@ -40,8 +40,8 @@ NFT 발행 순서
 4. CONTRACT -> myNFT 선택
 5. myNFT의 아규먼트(argument) 넣어주기
 
-    -_NAME : 토큰 이름 JichangNFT
-    -_SYMBOL : 토큰 심볼 JCNFT
+    -_NAME : 토큰 이름 JichangNFT2
+    -_SYMBOL : 토큰 심볼 JCNFT2
     -_LIMIT : NFT 최대 발행 개수 10  
     EX)
     첫번째 발행된 NFT의 id : 1 -> 메타데이터 1.json -> 그림 1.png
@@ -61,7 +61,7 @@ NFT 발행 순서
             B -> 105번째 블록에서 NFT 민트(mint)
             (클레이튼 초당 1블록)
 
-    -_REAVELINGBLOCK : 언제 NFT가 공개되는지 15
+    -_REAVELINGBLOCK : 언제 NFT가 공개되는지 25
         EX) 현재 블록 : 100 
             공개 시작 블록 : 25블록 
             cvoer.js 파일에 있는 그림(NFT공개전 그림) -> 125 블록 -> 진짜 NFT 그림

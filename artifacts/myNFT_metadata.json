@@ -915,11 +915,11 @@
 			]
 		},
 		"myNFT.sol": {
-			"keccak256": "0x72b74ee17178a99a11fcd6713210ac139eac94493442518a5da8c317af7cce76",
+			"keccak256": "0x6ccc82f686c8e0cc828ed8db044129b1154828dd7a432a03fc2f805c1986fb0f",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://5a302ba17962293d37063fd586521eace767ce699405755546cd42ab03731a87",
-				"dweb:/ipfs/QmdGGjJGUd1KYuqu5uqmv7zujd92Fup9xG5trdqB3GYodC"
+				"bzz-raw://80762053829ca521652240194d3badd2107691adb77303d5f5bd90c1421a8f2e",
+				"dweb:/ipfs/QmX3osAn99KCmRqz2KJcxUUCN3fhCVagE98UBWGahBdRSc"
 			]
 		}
 	},
