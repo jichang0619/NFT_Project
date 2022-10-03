@@ -5,7 +5,11 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/Strings.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol";
 
-// 추가 mint 할 때 번호 랜덤으로 주는 것? 
+/* Study And 구현 필요 사항
+1. mint 할 때 번호 랜덤으로 주는 것? 
+2. Mintable ? NO NFT 에선 문제가 될 수 있음
+3. Burnable ? 개발자것 없는데,,, 굳이?
+*/ 
 
 
 /*

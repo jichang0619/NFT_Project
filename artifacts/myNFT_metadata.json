@@ -985,11 +985,11 @@
 			]
 		},
 		"myNTF.sol": {
-			"keccak256": "0xaedf809ad8aab9c741de36e2caa177f259b4d9d771c07d17277356586fdb057a",
+			"keccak256": "0xeb4d956c7f86002567fc6c7f90b3a7d8afcf808d7e8066d13c8e52db2a3e9eb3",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://5969f253f7f174eb9d75d9751c11a71ae059cb729c3e964845e2744b824a2bfb",
-				"dweb:/ipfs/QmabqD2sFgYL43Ge7j6QbgCh9G1MBhHjzAxuV8uokK58kW"
+				"bzz-raw://c973638fe353a0b598ff2030edaf6ea8f8af7249695892c86fde7aaf70ac180b",
+				"dweb:/ipfs/QmVsGcDPFc9VqGvD5uF9zE6KkgL3oNc2zd8N4MX7dfGfha"
 			]
 		}
 	},
