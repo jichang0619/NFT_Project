@@ -9,6 +9,11 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 1. mint 할 때 번호 랜덤으로 주는 것? 
 2. Mintable ? NO NFT 에선 문제가 될 수 있음
 3. Burnable ? 개발자것 없는데,,, 굳이?
+4. NFT 스테이킹
+5. 스마트컨트랙 기능 업그레이드가 가능?
+DATA (토큰 이름, 발행량, 토큰 수 등)와 LOGIC(Transfer, approve) 분리! 
+delegatecall
+https://steemit.com/kr/@kblock/64-upgradable-smart-contract
 */ 
 
 
@@ -105,7 +110,7 @@ contract myNFT is ERC721Enumerable, Ownable {
     // fallback : 불려진 함수가 스마트컨트랙에 없을 때
     // fallback 은 recevie, fallback 두 가지 종류, recieve는 순수하게 ETH 를 받기 위해서
     receive() external payable{
-        if (block.number <= block.number + 300)
+        if (block.number <= block.number + 300) //if 문은 수정... 가능
         {
             mint_whitelist();
         }
