@@ -105,18 +105,6 @@ contract myNFT is ERC721Enumerable, Ownable {
         _mintIndexForSale = 1;
     }
 
-/*
-    // fallback : 불려진 함수가 스마트컨트랙에 없을 때
-    // fallback 은 recevie, fallback 두 가지 종류, recieve는 순수하게 ETH 를 받기 위해서
-    receive() external payable{
-        if (block.number <= block.number + 300) //if 문은 수정... 가능
-        {
-            mint_whitelist();
-        }
-        publicMint();
-    }
-*/
-
     // 판매금액 출금하기
     function withdraw() external onlyOwner() {
       (bool _result,) = address(msg.sender).call{value:address(this).balance}("");
