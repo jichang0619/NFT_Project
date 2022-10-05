@@ -7,20 +7,23 @@ import "./contracts/access/Ownable.sol";
 
 /*
 특징
-1. NFT 대량 민트
-2. 프론트엔드 없이 NFT 판매
 
-Ex) 발행한 스마트 컨트랙트 주소 : 0xd9145CCE52D386f254917e481eB44e9943F39138
-    1. A가 0xd9145CCE52D386f254917e481eB44e9943F39138(발행한 스마트 컨트랙트 주소)에게 0.01 eth(현재 세팅한 가격만큼)전송한다.
+발행한 스마트 컨트랙트 주소 : 0xd9145CCE52D386f254917e481eB44e9943F39138
+    1. A가 0xd9145CCE52D386f254917e481eB44e9943F39138(발행한 스마트 컨트랙트 주소)에게 0.xx eth(현재 세팅한 가격만큼)전송한다.
+    10000000000000000 = 0.01 ETH
     2. 0xd9145CCE52D386f254917e481eB44e9943F39138 A에게 NFT를 발행한다.
-    3. A는 15블록이후로 민트 가능하다. 
-    4. 배포자는 witdraw 함수로 판매된 NFT의 이더를 갖고 올 수 있다
+    3. 배포자는 witdraw 함수로 판매된 NFT의 이더를 갖고 올 수 있다
 */
 
 /*
-순서
+순서 (1,2 번은 deploy 할 때 입력하도록 바꾸는 것이 좋을듯)
 1. setBaseURI : "ipfs://Qmekywick4QuUtWctd74tJpp4foi2WEPZnvqBGbDuty338/" Metadata 입렵, 뒤에 슬래쉬 꼭 필요!!!
-2. NotRe "ipfs://Qma32eRjhhe4wfJZFNYfUhqv3EJzYMHugPSwr66jRmnYhW/" 커버 Metadata 입력
+2. setNotRevealedURI : "ipfs://Qma32eRjhhe4wfJZFNYfUhqv3EJzYMHugPSwr66jRmnYhW/" 커버 Metadata 입력
+3. setRevelingBlock : 몇블록 이후에 reveal 할 것인지 입력
+3-1. 3번으로 reveal state 변경, 현재는 수동 입력 
+4. setupSale : sale 상세 사항 (deploy 할 때 입력하도록 바꾸는 것이 좋을듯)
+5. setPublicMintEnabled : true 실행 시킬 수 있음
+6. 외부에서 publicMint 함수 실행 : 카운트 입력하면 발행
 */
 
 contract myNFT is ERC721Enumerable, Ownable {
