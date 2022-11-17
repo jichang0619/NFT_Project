@@ -1,0 +1,23 @@
+1. Deploy
+2. URI 입력
+3. Reveal : True
+4. SetupSale
+
+Anti Bot interval : 10 초
+Mint per block : 1개
+Mint Limit per sale : 500 개
+Mint Start Block Num : 106686899
+Index for sale : 1
+Max Sale Amount : 500
+price : 100000000000000000
+
+5. PublicMintEnabled : True
+
+npm run update_info
+node index.js
+==========================================
+1. 0xDcC4bf66E653f2AF88de7138a75Fc32b8743c1C5
+ipfs://QmdSkX5DHTjYd3AN4Ak6NG9VNrkVDjYJK7ArZhc9RZMXEu/
+
+2. 0x3c3c8df280c843aAcFa9a3c342C011282F3606ca
+ipfs://Qmc5WCcYq4dHrwXU7FnGhkLwvooXH5LVeKyMdQs1k684u1/

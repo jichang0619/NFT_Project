@@ -1,0 +1,46 @@
+0.5.17 // instanbul 
+Owner Address : 0x20839Da85dad5243a266ee99074edb435E6b987e
+Klaytn Baobab network (Testnet)
+
+테스트용 카이카스 지갑 (유저)
+개인키 : 0x6826aadf3e7a18ff346c3fdd40734ae933b5284f5e95350c964c8f7ed25a345d
+웰렛키 : 0x6826aadf3e7a18ff346c3fdd40734ae933b5284f5e95350c964c8f7ed25a345d0x000xb2f8c60b26a53ae960536333311cb4a04f519084
+==> 카이카스에서 개인키로 가져오기 하면 됩니다.
+
+Minting Sites : https://mellifluous-horse-1bccbe.netlify.app/
+ABI 는 같음
+
+===============================================================
+Smartcontract 첫번째 (총 20개 NFT) 
+
+NAME : JFFNFTPic1
+SYMBOL : JFFNFTPic1
+SmartContract Address : 0x81a75eCB8058Ae0c23ab777334c8Bd9C1314D7B9
+
+ifps://QmWP2JbYuRuyPi4yEiSufrsT72Q4tapcgW3LVDV39kCbh3
+Antibotinteval : 5
+Limit Per Block : 3
+Limit Per Sale : 20
+StartBlock Num : 106909510
+Index for sale : 2
+Max Sale Amount : 20
+Price : 10^17 (0.1Klay)
+
+테스트로 오너에게 #1번 배분, 유저에게 #2번 배분
+===============================================================
+Smartcontract 두번째 (총 20개 NFT) 
+
+NAME : JFFNFTPic2
+SYMBOL : JFFNFTPic2
+SmartContract Address : 0xA84F0eECF33adBa746Fc9e00DC4ec33B14fd04a9
+
+ifps://QmdYaUVhCJeeW1ZpajJJnJtULz5JQAAn4eLdN8yDPoi5J1/
+Antibotinteval : 5
+Limit Per Block : 3
+Limit Per Sale : 20
+StartBlock Num : 106909510
+Index for sale : 2
+Max Sale Amount : 20
+Price : 10^17 (0.1Klay)
+
+테스트로 오너에게 #1번 배분
